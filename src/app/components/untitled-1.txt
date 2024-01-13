@@ -1,0 +1,14 @@
+Hooks Rule
+
+* Must be written inside function component.
+* Have to import in Component.
+* Must be Call at Top level of Component. not inside any function / JSX
+* Cannot be conditional => cannot be in form of if-else
+
+in React we cannot update any Variable or Data directly
+
+usestate  => accept one value => initial value (string,number or Array) & return two things
+//  func to update state             /
+const [count,setCounter] = useState(0)
+return    /
+Current State        
